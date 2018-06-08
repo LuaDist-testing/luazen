@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luazen"
-version = "0.8-1"
+version = "0.8-2"
 -- LuaDist source
 source = {
-  tag = "0.8-1",
+  tag = "0.8-2",
   url = "git://github.com/LuaDist-testing/luazen.git"
 }
 -- Original source
@@ -37,6 +37,7 @@ build = {
 			"src/lzf_c.c", "src/lzf_d.c",
 			"src/mono.c", "src/norx.c",
 			"src/md5.c", "src/rc4.c",
+			"src/brieflz.c", "src/depacks.c",
 			"src/randombytes.c",
 		},
 		incdir = "src"
