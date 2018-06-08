@@ -1,9 +1,16 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "luazen"
 version = "0.9-1"
+-- LuaDist source
 source = {
-   url = "git://github.com/philanc/luazen",
-    branch = "v0.9",
+  tag = "0.9-1",
+  url = "git://github.com/LuaDist-testing/luazen.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/philanc/luazen" 
+-- }
 description = {
    summary = "Simple compression, encoding and cryptographic functions.",
    detailed = [[
@@ -38,4 +45,3 @@ build = {
    },
    copy_directories = { "test" },
 }
-
